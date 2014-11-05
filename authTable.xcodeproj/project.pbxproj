@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		18DFF0C31A0A743F00BE75B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0C21A0A743F00BE75B1 /* main.m */; };
 		18DFF0C61A0A743F00BE75B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0C51A0A743F00BE75B1 /* AppDelegate.m */; };
-		18DFF0C91A0A743F00BE75B1 /* authTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0C71A0A743F00BE75B1 /* authTable.xcdatamodeld */; };
-		18DFF0CC1A0A743F00BE75B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0CB1A0A743F00BE75B1 /* ViewController.m */; };
 		18DFF0CF1A0A743F00BE75B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF0CD1A0A743F00BE75B1 /* Main.storyboard */; };
 		18DFF0D11A0A743F00BE75B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF0D01A0A743F00BE75B1 /* Images.xcassets */; };
 		18DFF0D41A0A743F00BE75B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF0D21A0A743F00BE75B1 /* LaunchScreen.xib */; };
 		18DFF0E01A0A743F00BE75B1 /* authTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0DF1A0A743F00BE75B1 /* authTableTests.m */; };
+		18DFF0EC1A0A750900BE75B1 /* APIFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0EB1A0A750900BE75B1 /* APIFetcher.m */; };
+		18DFF0FF1A0A77AA00BE75B1 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF0FA1A0A77AA00BE75B1 /* AuthViewController.m */; };
+		18DFF1021A0A79F700BE75B1 /* mzingaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF1011A0A79F700BE75B1 /* mzingaLogo.png */; };
+		18DFF1071A0A913000BE75B1 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF1061A0A913000BE75B1 /* CoreDataTableViewController.m */; };
+		18DFF1111A0AB88700BE75B1 /* authTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF10F1A0AB88700BE75B1 /* authTable.xcdatamodeld */; };
+		18DFF12B1A0ABD6F00BE75B1 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF12A1A0ABD6F00BE75B1 /* Course.m */; };
+		18DFF12E1A0ABD6F00BE75B1 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF12D1A0ABD6F00BE75B1 /* Organization.m */; };
+		18DFF1341A0AC3E000BE75B1 /* Course+API.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF1331A0AC3E000BE75B1 /* Course+API.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +39,26 @@
 		18DFF0C21A0A743F00BE75B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18DFF0C41A0A743F00BE75B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18DFF0C51A0A743F00BE75B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18DFF0C81A0A743F00BE75B1 /* authTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = authTable.xcdatamodel; sourceTree = "<group>"; };
-		18DFF0CA1A0A743F00BE75B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18DFF0CB1A0A743F00BE75B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18DFF0CE1A0A743F00BE75B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DFF0D01A0A743F00BE75B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18DFF0D31A0A743F00BE75B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18DFF0D91A0A743F00BE75B1 /* authTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = authTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DFF0DE1A0A743F00BE75B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DFF0DF1A0A743F00BE75B1 /* authTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = authTableTests.m; sourceTree = "<group>"; };
+		18DFF0EA1A0A750900BE75B1 /* APIFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIFetcher.h; sourceTree = "<group>"; };
+		18DFF0EB1A0A750900BE75B1 /* APIFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIFetcher.m; sourceTree = "<group>"; };
+		18DFF0FA1A0A77AA00BE75B1 /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		18DFF0FD1A0A77AA00BE75B1 /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		18DFF1011A0A79F700BE75B1 /* mzingaLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mzingaLogo.png; sourceTree = "<group>"; };
+		18DFF1051A0A913000BE75B1 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		18DFF1061A0A913000BE75B1 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		18DFF1101A0AB88700BE75B1 /* authTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = authTable.xcdatamodel; sourceTree = "<group>"; };
+		18DFF1291A0ABD6F00BE75B1 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		18DFF12A1A0ABD6F00BE75B1 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		18DFF12C1A0ABD6F00BE75B1 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		18DFF12D1A0ABD6F00BE75B1 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
+		18DFF1321A0AC3E000BE75B1 /* Course+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Course+API.h"; sourceTree = "<group>"; };
+		18DFF1331A0AC3E000BE75B1 /* Course+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Course+API.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,7 @@
 		18DFF0B41A0A743E00BE75B1 = {
 			isa = PBXGroup;
 			children = (
+				18DFF1251A0ABA4900BE75B1 /* Model */,
 				18DFF0BF1A0A743F00BE75B1 /* authTable */,
 				18DFF0DC1A0A743F00BE75B1 /* authTableTests */,
 				18DFF0BE1A0A743F00BE75B1 /* Products */,
@@ -83,15 +101,16 @@
 		18DFF0BF1A0A743F00BE75B1 /* authTable */ = {
 			isa = PBXGroup;
 			children = (
+				18DFF1041A0A913000BE75B1 /* CoreDataTableViewController */,
+				18DFF0F71A0A76CD00BE75B1 /* auth */,
 				18DFF0C41A0A743F00BE75B1 /* AppDelegate.h */,
 				18DFF0C51A0A743F00BE75B1 /* AppDelegate.m */,
-				18DFF0CA1A0A743F00BE75B1 /* ViewController.h */,
-				18DFF0CB1A0A743F00BE75B1 /* ViewController.m */,
 				18DFF0CD1A0A743F00BE75B1 /* Main.storyboard */,
+				18DFF0E91A0A750900BE75B1 /* APIFetcher */,
 				18DFF0D01A0A743F00BE75B1 /* Images.xcassets */,
 				18DFF0D21A0A743F00BE75B1 /* LaunchScreen.xib */,
-				18DFF0C71A0A743F00BE75B1 /* authTable.xcdatamodeld */,
 				18DFF0C01A0A743F00BE75B1 /* Supporting Files */,
+				18DFF10E1A0AB44800BE75B1 /* DataModel */,
 			);
 			path = authTable;
 			sourceTree = "<group>";
@@ -100,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				18DFF0C11A0A743F00BE75B1 /* Info.plist */,
+				18DFF1011A0A79F700BE75B1 /* mzingaLogo.png */,
 				18DFF0C21A0A743F00BE75B1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -120,6 +140,55 @@
 				18DFF0DE1A0A743F00BE75B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DFF0E91A0A750900BE75B1 /* APIFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF0EA1A0A750900BE75B1 /* APIFetcher.h */,
+				18DFF0EB1A0A750900BE75B1 /* APIFetcher.m */,
+			);
+			name = APIFetcher;
+			path = APIFethcer;
+			sourceTree = "<group>";
+		};
+		18DFF0F71A0A76CD00BE75B1 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF0FA1A0A77AA00BE75B1 /* AuthViewController.m */,
+				18DFF0FD1A0A77AA00BE75B1 /* AuthViewController.h */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		18DFF1041A0A913000BE75B1 /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF1051A0A913000BE75B1 /* CoreDataTableViewController.h */,
+				18DFF1061A0A913000BE75B1 /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
+		18DFF10E1A0AB44800BE75B1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF10F1A0AB88700BE75B1 /* authTable.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		18DFF1251A0ABA4900BE75B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF1321A0AC3E000BE75B1 /* Course+API.h */,
+				18DFF1331A0AC3E000BE75B1 /* Course+API.m */,
+				18DFF12C1A0ABD6F00BE75B1 /* Organization.h */,
+				18DFF12D1A0ABD6F00BE75B1 /* Organization.m */,
+				18DFF1291A0ABD6F00BE75B1 /* Course.h */,
+				18DFF12A1A0ABD6F00BE75B1 /* Course.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DFF1021A0A79F700BE75B1 /* mzingaLogo.png in Resources */,
 				18DFF0CF1A0A743F00BE75B1 /* Main.storyboard in Resources */,
 				18DFF0D41A0A743F00BE75B1 /* LaunchScreen.xib in Resources */,
 				18DFF0D11A0A743F00BE75B1 /* Images.xcassets in Resources */,
@@ -222,9 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DFF0C91A0A743F00BE75B1 /* authTable.xcdatamodeld in Sources */,
+				18DFF12B1A0ABD6F00BE75B1 /* Course.m in Sources */,
+				18DFF1341A0AC3E000BE75B1 /* Course+API.m in Sources */,
+				18DFF1111A0AB88700BE75B1 /* authTable.xcdatamodeld in Sources */,
 				18DFF0C61A0A743F00BE75B1 /* AppDelegate.m in Sources */,
-				18DFF0CC1A0A743F00BE75B1 /* ViewController.m in Sources */,
+				18DFF1071A0A913000BE75B1 /* CoreDataTableViewController.m in Sources */,
+				18DFF0EC1A0A750900BE75B1 /* APIFetcher.m in Sources */,
+				18DFF0FF1A0A77AA00BE75B1 /* AuthViewController.m in Sources */,
+				18DFF12E1A0ABD6F00BE75B1 /* Organization.m in Sources */,
 				18DFF0C31A0A743F00BE75B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +493,7 @@
 				18DFF0E51A0A743F00BE75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DFF0E61A0A743F00BE75B1 /* Build configuration list for PBXNativeTarget "authTableTests" */ = {
 			isa = XCConfigurationList;
@@ -426,16 +502,17 @@
 				18DFF0E81A0A743F00BE75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18DFF0C71A0A743F00BE75B1 /* authTable.xcdatamodeld */ = {
+		18DFF10F1A0AB88700BE75B1 /* authTable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				18DFF0C81A0A743F00BE75B1 /* authTable.xcdatamodel */,
+				18DFF1101A0AB88700BE75B1 /* authTable.xcdatamodel */,
 			);
-			currentVersion = 18DFF0C81A0A743F00BE75B1 /* authTable.xcdatamodel */;
+			currentVersion = 18DFF1101A0AB88700BE75B1 /* authTable.xcdatamodel */;
 			path = authTable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
